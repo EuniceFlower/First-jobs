@@ -7,4 +7,4 @@ jobs:
 
     steps: 
     - name: Hola Eunice Fiorella
-    - run: echo "Eunice Fiorella Ancajima Sócola"
+      run: echo "Eunice Fiorella Ancajima Sócola"
