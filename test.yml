@@ -1,0 +1,10 @@
+key: Hola Mundo
+
+person:
+    name: Eunice
+    age: 28
+    city: Piura
+
+scripts: |
+  touch hola.txt
+  echo "hola";

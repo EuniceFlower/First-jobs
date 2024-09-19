@@ -1,0 +1,10 @@
+name: Hola Eunice
+on: [push]
+jobs:
+  Mensaje:
+    runs-on: ubuntu-latest
+
+
+    steps: 
+    - name: Hola Eunice Fiorella
+    - run: echo "Eunice Fiorella Ancajima Sócola"
