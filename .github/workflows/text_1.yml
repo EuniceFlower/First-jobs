@@ -8,3 +8,10 @@ jobs:
     steps: 
     - name: Hola Eunice Fiorella
       run: echo "Eunice Fiorella Ancajima Sócola"
+  
+  other:
+    run-on: ubuntu-latest
+
+    steps:
+    - name: ls
+      run: ls -al
