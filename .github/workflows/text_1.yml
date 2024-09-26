@@ -8,6 +8,15 @@ jobs:
     steps: 
     - name: Hola Eunice Fiorella
       run: echo "Eunice Fiorella Ancajima Sócola"
+
+    - name: touch file
+      run: touch hola.txt
+
+    - name: set text
+      run: echo "Hola Eunice\n Tengo la camisa negra" >> hola.txt
+
+    - name: read file
+      run: cat hola.txt
   
   other:
     runs-on: ubuntu-latest
