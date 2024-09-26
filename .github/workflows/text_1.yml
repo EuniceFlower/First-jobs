@@ -10,7 +10,7 @@ jobs:
       run: echo "Eunice Fiorella Ancajima Sócola"
   
   other:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: ls
